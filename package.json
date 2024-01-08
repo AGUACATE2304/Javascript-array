@@ -13,7 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "7.23.3",
     "jest": "^29.7.0",
     "prettier": "^3.1.1"
   }
