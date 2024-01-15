@@ -8,3 +8,21 @@
 
 const LANGUAGES = ["Java", "C++", "JavaScript", "C#", "TypeScript"];
 const BEATLES = ["John", "George", "Paul", "Ringo"];
+
+export const getLongWords = (WORDS) => {
+  const emptyWordsList = [];
+
+  const wordsLength = WORDS.length;
+
+  for (let index = 0; index < wordsLength; index++) {
+    const currentWord = WORDS[index];
+
+    const currentWordLength = currentWord.length;
+
+    if (currentWordLength >= 5) {
+      emptyWordsList.push(currentWord);
+    }
+  }
+
+  return emptyWordsList;
+};
