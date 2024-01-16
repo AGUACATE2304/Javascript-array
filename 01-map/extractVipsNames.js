@@ -27,6 +27,11 @@ const VIPS = [
   },
 ];
 
+/**
+ * extract the vips name from the vips collection
+ * @returns {string} name of the vip collection
+ */
+
 export const extractVipsNames = () => {
   const vipNameArray = VIPS.map((vip) => {
     return vip.name;
