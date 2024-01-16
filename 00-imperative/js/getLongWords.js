@@ -26,7 +26,7 @@ export const getLongWords = (WORDS) => {
     const currentWordLength = currentWord.length;
 
     if (currentWordLength >= 5) {
-      emptyWordsList.push(currentWord);
+      wordsList.push(currentWord);
     }
   }
 
