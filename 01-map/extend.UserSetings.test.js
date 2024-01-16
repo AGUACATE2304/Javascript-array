@@ -34,9 +34,10 @@ describe("Given function extendUsersSettings...", () => {
       ];
       //Act
       const result = extendUsersSettings();
+
       //Assert
       expect(result).toBeDefined();
       expect(result).toEqual(EXPECTED_RESULT);
-    },
+    }
   );
 });
