@@ -38,6 +38,6 @@ describe("Given function extendUsersSettings...", () => {
       //Assert
       expect(result).toBeDefined();
       expect(result).toEqual(EXPECTED_RESULT);
-    }
+    },
   );
 });

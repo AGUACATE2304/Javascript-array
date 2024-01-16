@@ -14,6 +14,6 @@ describe("Given function transformSecondsToWords...", () => {
       //Assert
       expect(result).toBeDefined();
       expect(result).toEqual(EXPECTED_RESULT);
-    }
+    },
   );
 });
