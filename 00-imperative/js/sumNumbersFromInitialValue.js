@@ -8,6 +8,12 @@
 
 const NUMBERS = [1, 2, 3, 4, 5];
 
+/**
+ * Sum all the numbers given from an array
+ * @param {string} initialNumber numbers that will be provided to sum
+ * @returns {number} returns the sum value of all the numbers ( type number )
+ */
+
 export const sumNumbersFromInitialValue = (initialNumber) => {
   const numbersLength = NUMBERS.length;
 

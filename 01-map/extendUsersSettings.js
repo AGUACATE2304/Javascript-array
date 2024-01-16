@@ -57,7 +57,7 @@ const USERS = [
 
 /**
  * extend the users settings, given the current settings, adding an id and is enabled propperty
- * @param {string} given name to capitalize
+ * @param {string} user name to capitalize
  * @param {number} index from the values array's possition
  * @returns {string} extended users settings
  */

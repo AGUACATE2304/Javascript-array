@@ -8,7 +8,7 @@ const MATES = ["john", "JACOB", "jinGleHeimer", "schmidt"];
 
 /**
  * Capitalize a string from a given string array and return to an array
- * @param {string} given name to capitalize
+ * @param {string} name name to capitalize
  * @returns {string} capitalized name
  */
 
