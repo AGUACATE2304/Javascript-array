@@ -16,7 +16,7 @@ const BEATLES = ["John", "George", "Paul", "Ringo"];
  */
 
 export const getLongWords = (WORDS) => {
-  const emptyWordsList = [];
+  const wordsList = [];
 
   const wordsLength = WORDS.length;
 
@@ -30,5 +30,5 @@ export const getLongWords = (WORDS) => {
     }
   }
 
-  return emptyWordsList;
+  return wordsList;
 };

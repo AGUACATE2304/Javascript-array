@@ -9,10 +9,4 @@
 const LANGUAGES = ["Java", "C++", "JavaScript", "C#", "TypeScript"];
 const BEATLES = ["John", "George", "Paul", "Ringo"];
 
-const getLongWords = (words) => {
-  const longWords = words.filter((words) => {
-    return words.length >= 5;
-  });
 
-  return longWords;
-};

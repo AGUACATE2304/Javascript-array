@@ -17,6 +17,7 @@ const MONKEYS = ["🐒", "🦍", "🦧"];
 export const feedMonkeys = function (fruit) {
   const mappedArray = MONKEYS.map((monkey) => {
     const feedMonkeys = `${monkey} ${fruit}`;
+
     return feedMonkeys;
   });
 
