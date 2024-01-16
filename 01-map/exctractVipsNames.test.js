@@ -12,6 +12,6 @@ describe("Given function extractVipsNames...", () => {
       //Assert
       expect(result).toBeDefined();
       expect(result).toEqual(EXPECTED_RESULT);
-    }
+    },
   );
 });
