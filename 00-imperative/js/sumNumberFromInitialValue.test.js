@@ -15,8 +15,10 @@ describe("Given function sumNumbersFromInitialValue...", () => {
     //Arrange
     const numberParameter = 10;
     const EXPECTED_RESULT = 25;
+
     //Act
     const result = sumNumbersFromInitialValue(numberParameter);
+
     //Assert
     expect(result).toBeDefined();
     expect(result).toEqual(EXPECTED_RESULT);

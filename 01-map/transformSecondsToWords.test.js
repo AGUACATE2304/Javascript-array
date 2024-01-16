@@ -7,11 +7,13 @@ describe("Given function transformSecondsToWords...", () => {
     () => {
       //Arrange
       const EXPECTED_RESULT = ["2", "5", "100"];
+
       //Act
       const result = transformSecondsToWords();
+
       //Assert
       expect(result).toBeDefined();
       expect(result).toEqual(EXPECTED_RESULT);
-    },
+    }
   );
 });
