@@ -17,7 +17,7 @@ describe("Given getTotalVoters", () => {
       { name: "Jeff", age: 30, voted: true },
       { name: "Zack", age: 19, voted: false },
     ];
-    
+
     //Act
     const EXPECTED_RESULT = 7;
     const totalVoters = getTotalVoters(VOTERS);
