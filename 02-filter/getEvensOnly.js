@@ -12,7 +12,7 @@ const COUNTERS = [2, 25, 43, 12, 67, 42, 28];
  * @returns {number} Returns even numbers.
  */
 export const getEvensOnly = (counters) => {
-  const evenNumbers = counters.filter((counter) => counter % 2 == 0);
+  const evenNumbers = counters.filter((counter) => counter % 2 === 0);
 
   return evenNumbers;
 };
