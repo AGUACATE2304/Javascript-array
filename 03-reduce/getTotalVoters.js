@@ -18,3 +18,16 @@ const VOTERS = [
   { name: "Jeff", age: 30, voted: true },
   { name: "Zack", age: 19, voted: false },
 ];
+
+/**
+ * Given a list of voters, check them and return a number of people that voted.
+ * @param {array} VOTERS Given a string of people who can vote.
+ * @returns {number} Number of people who voted.
+ */
+
+export const getTotalVoters = function (VOTERS) {
+  return VOTERS.reduce((acc, voter) => {
+    const trueVoter = voter.voted === true ? 1 : 0;
+    return acc + trueVoter;
+  }, 0);
+};

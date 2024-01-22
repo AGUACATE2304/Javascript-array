@@ -11,7 +11,7 @@ const BEATLES = ["John", "George", "Paul", "Ringo"];
 
 /**
  * Return an array with only words greater than or equal to 5
- * @param {string} words words that will be provided to 'getLongWords'
+ * @param {array} words words that will be provided to 'getLongWords'
  * @returns {string} array with only words that pass the condition
  */
 
